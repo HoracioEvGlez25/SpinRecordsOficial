@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Life is Rubbish",
+    "artist": "Blur",
+    "description": "El segundo álbum de estudio de Blur, lanzado en 1993, marcó el comienzo del sonido Britpop que definiría su carrera. Con influencias del rock británico de los años 60, este álbum es una crítica al estilo de vida moderno. Canciones destacadas incluyen 'Coping' y 'Popscene'.",
+    "imageUrl": "/MLIRRR.jpg",
+    "price": "280.00",
+    "genre": "Alternative",
+    "tipo": "vinilo" 
+  },
+  {
+    "id": 2,
+    "title": "Humbug",
+    "artist": "Arctic Monkeys",
+    "description": "Lanzado en 2009, 'Humbug' es el tercer álbum de Arctic Monkeys y muestra un sonido más oscuro y psicodélico. Producido por Josh Homme de Queens of the Stone Age, el álbum incluye éxitos como 'Crying Lightning' y 'Cornerstone'.",
+    "imageUrl": "/Humbug.jpg",
+    "price": "280.00",
+    "genre": "Rock",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 3,
+    "title": "Blur",
+    "artist": "Blur",
+    "description": "El álbum homónimo de Blur, lanzado en 1997, presentó un sonido más crudo y experimental, alejándose del Britpop que los había hecho famosos. Incluye su emblemático sencillo 'Song 2', conocido por su energía y su famoso grito 'Woo-hoo!'.",
+    "imageUrl": "/BC.jpg",
+    "price": "300.00",
+    "genre": "Alternative",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 4,
+    "title": "Gorillaz",
+    "artist": "Gorillaz",
+    "description": "Este es el álbum debut de la banda virtual Gorillaz, lanzado en 2001. Mezcla géneros como el hip hop, rock y electrónica, con éxitos como 'Clint Eastwood' y '19-2000'. La banda fue creada por Damon Albarn de Blur y el artista Jamie Hewlett.",
+    "imageUrl": "/G.jpg",
+    "price": "300.00",
+    "genre": "Alternative",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 5,
+    "title": "The New Abnormal",
+    "artist": "The Strokes",
+    "description": "Lanzado en 2020, 'The New Abnormal' es el sexto álbum de estudio de The Strokes. Ganador del Grammy al Mejor Álbum de Rock, incluye canciones como 'At the Door' y 'Ode to the mets', destacando por su sonido melódico y nostálgico.",
+    "imageUrl": "/TNAA.jpg",
+    "price": "300.00",
+    "genre": "Rock",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 6,
+    "title": "Favourite Worst Nightmare",
+    "artist": "Arctic Monkeys",
+    "description": "El segundo álbum de Arctic Monkeys, lanzado en 2007, presenta un sonido más maduro y agresivo que su debut. Destacan canciones como 'Brianstorm' y 'Fluorescent Adolescent', mostrando su capacidad para mezclar energía punk con melodías pegajosas.",
+    "imageUrl": "/FWNMM.jpg",
+    "price": "320.00",
+    "genre": "Rock",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 7,
+    "title": "Revolver",
+    "artist": "The Beatles",
+    "description": "Lanzado en 1966, 'Revolver' es uno de los álbumes más innovadores de The Beatles, explorando técnicas de grabación avanzadas y letras introspectivas. Incluye clásicos como 'Eleanor Rigby' y 'Tomorrow Never Knows'.",
+    "imageUrl": "/rev.jpg",
+    "price": "340.00",
+    "genre": "Rock",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 8,
+    "title": "Ten",
+    "artist": "Pearl Jam",
+    "description": "El álbum debut de Pearl Jam, lanzado en 1991, ayudó a definir el sonido grunge de los 90. Destacan canciones como 'Alive', 'Even Flow' y 'Black', marcando el comienzo de una legendaria carrera musical.",
+    "imageUrl": "/black.jpeg",
+    "price": "300.00",
+    "genre": "Grunge, Rock",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 9,
+    "title": "Black Sabbath",
+    "artist": "Black Sabbath",
+    "description": "Lanzado en 1970, este álbum debut de Black Sabbath es considerado el inicio del heavy metal. Con canciones como 'Black Sabbath' y 'The Wizard', el disco marcó un antes y un después en la historia del rock.",
+    "imageUrl": "/black sabbath.jpg",
+    "price": "300.00",
+    "genre": "Heavy Metal",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 10,
+    "title": "Romance",
+    "artist": "Fontaines D.C.",
+    "description": "Lanzado en 2024, 'Romance' combina letras poéticas y un sonido post-punk característico. Canciones como 'Starbuster', o 'Desire' destacan la evolución de la banda hacia un estilo más melódico.",
+    "imageUrl": "/Romance.jpg",
+    "price": "350.00",
+    "genre": "Post-Punk",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 11,
+    "title": "13",
+    "artist": "Blur",
+    "description": "Lanzado en 1999, '13' es un álbum introspectivo y experimental de Blur que aborda temas personales. Canciones como 'Tender' y 'Coffee & TV' destacan por sus arreglos y profundidad emocional.",
+    "imageUrl": "/1333.jpg",
+    "price": "300.00",
+    "genre": "Alternative",
+    "tipo": "vinilo"
+  },
+  {
+    "id": 12,
+    "title": "OK Computer",
+    "artist": "Radiohead",
+    "description": "Lanzado en 1997, 'OK Computer' es uno de los álbumes más aclamados de Radiohead, explorando temas como el aislamiento tecnológico y la alienación moderna. Incluye éxitos como 'Paranoid Android' y 'Karma Police'.",
+    "imageUrl": "/OKC.jpg",
+    "price": "350.00",
+    "genre": "Alternative",
+    "tipo": "vinilo"
+  }
+]

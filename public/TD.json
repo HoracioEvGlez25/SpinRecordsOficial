@@ -1,0 +1,57 @@
+[ 
+    {
+      "id": 1,
+      "name": "Tocadiscos Vintage",
+      "brand": "Sony",
+      "price": "$1150",
+      "type": "Manual",
+      "imageUrl": "/T.jpg",
+      "tipo": "tocadisco"
+    },
+    {
+      "id": 2,
+      "name": "Tocadiscos Moderno",
+      "brand": "Audio-Technica",
+      "price": "$1300",
+      "type": "Automático",
+      "imageUrl": "/TDS.jpg",
+      "tipo": "tocadisco"
+    },
+    {
+      "id": 3,
+      "name": "Tocadiscos Clásico",
+      "brand": "Technics",
+      "price": "$1500",
+      "type": "Semi-automático",
+      "imageUrl": "/TTTT.jpg",
+      "tipo": "tocadisco"
+    },
+    {
+      "id": 4,
+      "name": "Tocadiscos Moderno",
+      "brand": "Technics",
+      "price": "$1800",
+      "type": "Automático",
+      "imageUrl": "/TDM.jpg",
+      "tipo": "tocadisco"
+    },
+    {
+      "id": 5,
+      "name": "Tocadiscos Moderno",
+      "brand": "Technics", 
+      "price": "$1500",
+      "type": "Semi-automático",
+      "imageUrl": "/TDSA.png",
+      "tipo": "tocadisco"
+    },
+    {
+      "id": 6,
+      "name": "Tocadiscos Moderno",
+      "brand": "Technics",
+      "price": "$1340",
+      "type": "Manual",
+      "imageUrl": "/TDA.jpg",
+      "tipo": "tocadisco"
+    }
+  ]
+  
