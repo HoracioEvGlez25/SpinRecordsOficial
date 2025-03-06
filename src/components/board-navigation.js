@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaShoppingCart } from 'react-icons/fa';
+import { FaShoppingCart, FaUser } from 'react-icons/fa'; // Importa FaUser
 
 function BoardNavigation({ cartItems }) {
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -61,7 +61,15 @@ function BoardNavigation({ cartItems }) {
         <Link to="/wishlist" style={linkStyle}>Lista de Deseos</Link>
         <Link to="/login" style={linkStyle}>Iniciar Sesión</Link>
         <Link to="/register" style={linkStyle}>Registrarse</Link>
-        <Link to="/profile" style={linkStyle}>Perfil</Link>
+       
+        <Link to="/profile" style={{
+          ...linkStyle,
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px',
+        }}>
+          <FaUser /> 
+        </Link>
         <div 
           onClick={toggleCart} 
           style={{
@@ -73,7 +81,7 @@ function BoardNavigation({ cartItems }) {
           }}
         >
           <FaShoppingCart style={{ marginRight: '8px' }} />
-          Carrito ({cartItems.length})
+          ({cartItems.length})
         </div>
       </div>
 

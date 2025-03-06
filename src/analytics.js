@@ -1,7 +1,7 @@
 import ReactGA from 'react-ga';
 
 const initializeAnalytics = () => {
-    ReactGA.initialize('G-WC4DFM35XJ'); 
+    ReactGA.initialize('G-TXBHDT2D98'); 
     ReactGA.pageview(window.location.pathname + window.location.search); 
 };
 

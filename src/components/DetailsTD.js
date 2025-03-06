@@ -27,7 +27,7 @@ function DetailsTD({ addToCart }) {
     <Container
       className="my-5 p-4"
       style={{
-        background: 'linear-gradient(135deg, #ffffff, #f7f9fc)',
+        background: 'linear-gradient(135deg,rgb(240, 234, 234),rgb(237, 238, 240))',
         borderRadius: '15px',
         boxShadow: '0 8px 20px rgba(0, 0, 0, 0.1)',
       }}
@@ -87,7 +87,7 @@ function DetailsTD({ addToCart }) {
                   }}
                   onClick={() => alert('Agregar a lista de deseos')}
                 >
-                  Lista de deseos
+                  Agregar a Wishlist
                 </Button>
                 <Button
                   variant="success"

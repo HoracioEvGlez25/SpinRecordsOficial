@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { FaStore, FaShoppingCart, FaTruck } from "react-icons/fa"; // Importamos íconos
 
 const ConfirmationPage = () => {
   const navigate = useNavigate();
@@ -8,29 +9,24 @@ const ConfirmationPage = () => {
     <div style={styles.container}>
       <h2
         className="text-center mb-4"
-        style={{
-          fontWeight: 'bold',
-          textTransform: 'uppercase',
-          letterSpacing: '0.1em',
-          color: '#000', 
-          borderBottom: '2px solid #000', 
-          paddingBottom: '0.5rem',
-        }}
+        style={styles.title}
       >
         Gracias por comprar en Spin Records
       </h2>
       <p style={styles.message}>
-        Tu transacción ha sido exitosa. Haz clic en el botón para volver a la página principal.
+        Tu transacción ha sido exitosa. Haz clic en uno de los botones para continuar.
       </p>
-      <button onClick={() => navigate("/")} style={styles.button}>
-        Volver a la tienda
-      </button>
-      <button onClick={() => navigate("/PurchaseOrder")} style={styles.button}>
-        Volver a comprar
-      </button>
-      <button onClick={() => navigate("/PurchaseTracking")} style={styles.button}>
-  Ver seguimiento de la compra
-</button>
+      <div style={styles.buttonContainer}>
+        <button onClick={() => navigate("/")} style={styles.button}>
+          <FaStore style={styles.icon} /> Volver a la tienda
+        </button>
+        <button onClick={() => navigate("/PurchaseOrder")} style={styles.button}>
+          <FaShoppingCart style={styles.icon} /> Volver a comprar
+        </button>
+        <button onClick={() => navigate("/PurchaseTracking")} style={styles.button}>
+          <FaTruck style={styles.icon} /> Ver seguimiento de la compra
+        </button>
+      </div>
     </div>
   );
 };
@@ -44,25 +40,44 @@ const styles = {
     minHeight: "100vh",
     backgroundColor: "#f5f5f5",
     textAlign: "center",
+    padding: "20px",
   },
   title: {
-    fontSize: "32px",
-    color: "#333",
+    fontWeight: "bold",
+    textTransform: "uppercase",
+    letterSpacing: "0.1em",
+    color: "#000",
+    borderBottom: "2px solid #000",
+    paddingBottom: "0.5rem",
+    fontSize: "24px",
     marginBottom: "20px",
   },
   message: {
     fontSize: "18px",
     color: "#777",
+    marginBottom: "20px",
+  },
+  buttonContainer: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "15px",
   },
   button: {
-    marginTop: "20px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "10px",
     padding: "10px 20px",
-    backgroundColor: "#6772E5",
+    backgroundColor: "#060270",
     color: "#fff",
-    borderRadius: "5px",
+    borderRadius: "8px",
     border: "none",
     cursor: "pointer",
     fontSize: "16px",
+    transition: "background-color 0.3s ease",
+  },
+  icon: {
+    fontSize: "20px",
   },
 };
 
